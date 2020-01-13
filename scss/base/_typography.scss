@@ -16,15 +16,16 @@
   
   
 //typography-----------------------------------//
-
-.headline-primary {
+.headline{
+  &-primary {
     color:$primary;
     margin-left: 10px;
   }
   
-  .headline-secondary {
+  &-secondary {
     @include text($weight: 300, $color:$secondary);
   }
+}
   
   .link {
     @include text($weight: 700, $color:$secondary);
