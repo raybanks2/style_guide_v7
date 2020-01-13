@@ -1,8 +1,8 @@
 $primary: rgb(85, 136, 247);
 $secondary:rgb(112, 204, 181);
 $comp: compliment($primary);
-$border: blue;
-$border_comp: compliment($border);
+$border: rgb(0, 0, 182);
+$border_comp: invert($border);
 $background: grey;
 $breakmq: '(min-width: 768px)';
 $max-width: '100%';

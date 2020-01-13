@@ -153,7 +153,7 @@ a { text-decoration: none; }
 /* ============================================= */
 .form { flex-basis: 100%; }
 
-.input { display: block; width: 94%; margin: 10px auto 0; border: none; padding: 10px; border-bottom: 5px solid compliment(blue); }
+.input { display: block; width: 94%; margin: 10px auto 0; border: none; padding: 10px; border-bottom: 5px solid #ffff49; }
 
 .hidden { position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; }
 
@@ -168,7 +168,7 @@ a { text-decoration: none; }
 
 .img-avatar { display: block; margin-left: auto; margin-right: auto; margin-top: 10px; max-width: "100%"; max-height: "100%"; }
 
-.img-frame { display: block; margin-left: auto; margin-right: auto; margin-top: 10px; max-width: "100%"; padding: 13px; border: 1px solid blue; }
+.img-frame { display: block; margin-left: auto; margin-right: auto; margin-top: 10px; max-width: "100%"; padding: 13px; border: 1px solid #0000b6; }
 
 .img-logo { display: block; margin-left: auto; margin-right: auto; }
 
