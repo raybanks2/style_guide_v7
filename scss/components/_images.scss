@@ -1,0 +1,15 @@
+
+.img-avatar {
+    @include img(block, auto, auto, 10px, $max-width,);
+    max-height: $max-height;
+  }
+  
+  .img-frame {
+    @include img(block, auto, auto, 10px, $max-width,);
+    padding: 13px;
+    border: 1px solid $border;
+  }
+  
+  .img-logo {@include img(block, auto, auto,);
+  }
+  

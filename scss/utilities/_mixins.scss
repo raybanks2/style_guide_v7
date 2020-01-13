@@ -1,0 +1,31 @@
+//text
+
+@mixin text($size:null, $l-height: null, $weight:null, $color: null){
+    font-size: $size;
+    line-height: $l-height;
+    font-weight: $weight;
+    color: $color;
+}
+//buttons
+
+@mixin btn-config($m-top, $width:null, $color:null, $border:null, $b-rad:null, $pad:null, $txt-t:null){
+    margin-top: $m-top;
+    width: $width;
+    color: $color;
+    border: $border;
+    border-radius: $b-rad;
+    padding: $pad;
+    text-transform: $txt-t;
+   
+}
+
+//images
+
+@mixin img($disp, $m-left, $m-right, $m-top:null, $max-width:null,){
+    display: $disp;
+    margin-left: $m-left;
+    margin-right: $m-right;
+    margin-top: $m-top;
+    max-width: $max-width;
+}
+
